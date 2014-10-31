@@ -1,8 +1,6 @@
 image: bradrydzewski/php:5.5
-env:
 script:
   - hostname -a
-services:
 notify:
   email:
     recipients:

@@ -1,6 +1,6 @@
-image: bradrydzewski/php:5.5
+image: gordon/nodejs
 script:
-  - hostname -a
+  - echo "Hello"
 notify:
   email:
     recipients:

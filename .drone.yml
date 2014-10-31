@@ -1,4 +1,6 @@
 image: gordon/nodejs
+env:
+  - LANG="en_US.UTF-8"
 script:
   - echo "Hello"
 notify:
